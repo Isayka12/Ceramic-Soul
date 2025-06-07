@@ -62,8 +62,41 @@
             top: 0;
             left: 0;
             display: block;
-            width: 450px;
+            width: clamp(450px, 37.5vw, 640px);
             height: 633px;
+            object-fit: cover;
+        }
+
+        &__title {
+            padding-left: 571px;
+        }
+    }
+}
+
+@media screen and (min-width:1920px) {
+    .promo {
+        padding-top: 40px;
+
+        &__wrapper {
+            margin-top: 79px;
+        }
+
+        &__img {
+            width: 330px;
+            height: 460px;
+        }
+
+        &__title {
+            padding-left: 642px;
+            padding-top: 384px
+        }
+
+        &__potter {
+            height: 900px;
+        }
+
+        &__btn {
+            margin-top: 50px;
         }
     }
 }
