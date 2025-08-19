@@ -4,6 +4,7 @@
 
     &__wrapper {
         margin-top: 50px;
+
     }
 
     &__title {
@@ -69,6 +70,10 @@
 
         &__title {
             padding-left: 571px;
+        }
+
+        &__cta {
+            animation: slideIn 3s;
         }
     }
 }

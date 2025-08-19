@@ -1,0 +1,23 @@
+@keyframes slideIn {
+    0% {
+        transform: translateX(100%);
+    }
+
+    100% {
+        transform: translateX(0%);
+    }
+}
+
+@keyframes reverV {
+    0% {
+        transform: translateY(0%) rotate(0deg);
+    }
+
+    50% {
+        transform: translateY(-100%) rotate(180deg);
+    }
+
+    100% {
+        transform: translateY(0%) rotate(360deg);
+    }
+}
